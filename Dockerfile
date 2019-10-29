@@ -16,7 +16,6 @@ RUN sudo apt-get -qq update && \
   && sudo apt-get autoclean > /dev/null \
   && sudo rm -rf /var/lib/apt/lists/*
 
-
 ENV FLUTTER_VERSION 1.9.1+hotfix.6-stable
 ENV FLUTTER_HOME /home/circleci/flutter
 
