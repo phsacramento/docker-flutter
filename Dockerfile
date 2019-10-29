@@ -17,7 +17,7 @@ RUN sudo apt-get -qq update && \
   && sudo rm -rf /var/lib/apt/lists/*
 
 
-ENV FLUTTER_VERSION 1.7.8+hotfix.4-stable
+ENV FLUTTER_VERSION 1.9.1+hotfix.6-stable
 ENV FLUTTER_HOME /home/circleci/flutter
 
 RUN cd /home/circleci/ && wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v${FLUTTER_VERSION}.tar.xz
