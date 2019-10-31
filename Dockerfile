@@ -1,4 +1,4 @@
-FROM circleci/android:api-29
+FROM circleci/android:api-28
 
 ENV DEBIAN_FRONTEND noninteractive
 
